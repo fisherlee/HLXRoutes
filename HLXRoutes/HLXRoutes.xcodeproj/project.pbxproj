@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B06163A228AACF000A85642 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B061639228AACF000A85642 /* AppDelegate.m */; };
+		9B06163D228AACF000A85642 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B06163C228AACF000A85642 /* FirstViewController.m */; };
+		9B061640228AACF000A85642 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B06163F228AACF000A85642 /* SecondViewController.m */; };
+		9B061643228AACF000A85642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B061641228AACF000A85642 /* Main.storyboard */; };
+		9B061645228AACF200A85642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B061644228AACF200A85642 /* Assets.xcassets */; };
+		9B061648228AACF200A85642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B061646228AACF200A85642 /* LaunchScreen.storyboard */; };
+		9B06164B228AACF200A85642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B06164A228AACF200A85642 /* main.m */; };
+		9B061655228AACF200A85642 /* HLXRoutesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B061654228AACF200A85642 /* HLXRoutesTests.m */; };
+		9B061663228AAD2900A85642 /* HLXRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B061662228AAD2900A85642 /* HLXRoutes.m */; };
+		9B1376312292A128006558EC /* UIImageView+HLUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1376302292A128006558EC /* UIImageView+HLUI.m */; };
+		9B1376342292A312006558EC /* UIImage+HLUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1376332292A312006558EC /* UIImage+HLUI.m */; };
+		9B137637229384BF006558EC /* HomeFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B137636229384BF006558EC /* HomeFlowView.m */; };
+		9B13763A22938670006558EC /* HomeFlowThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B13763922938670006558EC /* HomeFlowThumbView.m */; };
+		CF8EEC42F502422127DFE2A0 /* libPods-HLXRoutes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 201899E4657556960D2A5EA2 /* libPods-HLXRoutes.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B061651228AACF200A85642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B06162D228AACF000A85642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B061634228AACF000A85642;
+			remoteInfo = HLXRoutes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1163CAB5A646A0033318C57D /* Pods-HLXRoutes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLXRoutes.debug.xcconfig"; path = "Target Support Files/Pods-HLXRoutes/Pods-HLXRoutes.debug.xcconfig"; sourceTree = "<group>"; };
+		201899E4657556960D2A5EA2 /* libPods-HLXRoutes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLXRoutes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B061635228AACF000A85642 /* HLXRoutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLXRoutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B061638228AACF000A85642 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B061639228AACF000A85642 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B06163B228AACF000A85642 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		9B06163C228AACF000A85642 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		9B06163E228AACF000A85642 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9B06163F228AACF000A85642 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9B061642228AACF000A85642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B061644228AACF200A85642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B061647228AACF200A85642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B061649228AACF200A85642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B06164A228AACF200A85642 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B061650228AACF200A85642 /* HLXRoutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLXRoutesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B061654228AACF200A85642 /* HLXRoutesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLXRoutesTests.m; sourceTree = "<group>"; };
+		9B061656228AACF200A85642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B061661228AAD2900A85642 /* HLXRoutes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLXRoutes.h; sourceTree = "<group>"; };
+		9B061662228AAD2900A85642 /* HLXRoutes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLXRoutes.m; sourceTree = "<group>"; };
+		9B13762F2292A128006558EC /* UIImageView+HLUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HLUI.h"; sourceTree = "<group>"; };
+		9B1376302292A128006558EC /* UIImageView+HLUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HLUI.m"; sourceTree = "<group>"; };
+		9B1376322292A312006558EC /* UIImage+HLUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HLUI.h"; sourceTree = "<group>"; };
+		9B1376332292A312006558EC /* UIImage+HLUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HLUI.m"; sourceTree = "<group>"; };
+		9B137635229384BF006558EC /* HomeFlowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFlowView.h; sourceTree = "<group>"; };
+		9B137636229384BF006558EC /* HomeFlowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFlowView.m; sourceTree = "<group>"; };
+		9B13763822938670006558EC /* HomeFlowThumbView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFlowThumbView.h; sourceTree = "<group>"; };
+		9B13763922938670006558EC /* HomeFlowThumbView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFlowThumbView.m; sourceTree = "<group>"; };
+		AA59B346085845F1503CE82A /* Pods-HLXRoutes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLXRoutes.release.xcconfig"; path = "Target Support Files/Pods-HLXRoutes/Pods-HLXRoutes.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B061632228AACF000A85642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8EEC42F502422127DFE2A0 /* libPods-HLXRoutes.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B06164D228AACF200A85642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		348DD273929AE0F4D680A119 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1163CAB5A646A0033318C57D /* Pods-HLXRoutes.debug.xcconfig */,
+				AA59B346085845F1503CE82A /* Pods-HLXRoutes.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5EE19F96BB3BEB0F36DB0845 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				201899E4657556960D2A5EA2 /* libPods-HLXRoutes.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B06162C228AACF000A85642 = {
+			isa = PBXGroup;
+			children = (
+				9B061637228AACF000A85642 /* HLXRoutes */,
+				9B061653228AACF200A85642 /* HLXRoutesTests */,
+				9B061636228AACF000A85642 /* Products */,
+				348DD273929AE0F4D680A119 /* Pods */,
+				5EE19F96BB3BEB0F36DB0845 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B061636228AACF000A85642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B061635228AACF000A85642 /* HLXRoutes.app */,
+				9B061650228AACF200A85642 /* HLXRoutesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B061637228AACF000A85642 /* HLXRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				9B061660228AAD1000A85642 /* Routes */,
+				9B06165F228AACFF00A85642 /* VC */,
+				9B061638228AACF000A85642 /* AppDelegate.h */,
+				9B061639228AACF000A85642 /* AppDelegate.m */,
+				9B06163B228AACF000A85642 /* FirstViewController.h */,
+				9B06163C228AACF000A85642 /* FirstViewController.m */,
+				9B06163E228AACF000A85642 /* SecondViewController.h */,
+				9B06163F228AACF000A85642 /* SecondViewController.m */,
+				9B061641228AACF000A85642 /* Main.storyboard */,
+				9B061644228AACF200A85642 /* Assets.xcassets */,
+				9B061646228AACF200A85642 /* LaunchScreen.storyboard */,
+				9B061649228AACF200A85642 /* Info.plist */,
+				9B06164A228AACF200A85642 /* main.m */,
+			);
+			path = HLXRoutes;
+			sourceTree = "<group>";
+		};
+		9B061653228AACF200A85642 /* HLXRoutesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B061654228AACF200A85642 /* HLXRoutesTests.m */,
+				9B061656228AACF200A85642 /* Info.plist */,
+			);
+			path = HLXRoutesTests;
+			sourceTree = "<group>";
+		};
+		9B06165F228AACFF00A85642 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				9B13762F2292A128006558EC /* UIImageView+HLUI.h */,
+				9B1376302292A128006558EC /* UIImageView+HLUI.m */,
+				9B1376322292A312006558EC /* UIImage+HLUI.h */,
+				9B1376332292A312006558EC /* UIImage+HLUI.m */,
+				9B137635229384BF006558EC /* HomeFlowView.h */,
+				9B137636229384BF006558EC /* HomeFlowView.m */,
+				9B13763822938670006558EC /* HomeFlowThumbView.h */,
+				9B13763922938670006558EC /* HomeFlowThumbView.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		9B061660228AAD1000A85642 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				9B061661228AAD2900A85642 /* HLXRoutes.h */,
+				9B061662228AAD2900A85642 /* HLXRoutes.m */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B061634228AACF000A85642 /* HLXRoutes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B061659228AACF200A85642 /* Build configuration list for PBXNativeTarget "HLXRoutes" */;
+			buildPhases = (
+				4FFEDEEFD2C076A26A384E77 /* [CP] Check Pods Manifest.lock */,
+				9B061631228AACF000A85642 /* Sources */,
+				9B061632228AACF000A85642 /* Frameworks */,
+				9B061633228AACF000A85642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLXRoutes;
+			productName = HLXRoutes;
+			productReference = 9B061635228AACF000A85642 /* HLXRoutes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B06164F228AACF200A85642 /* HLXRoutesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B06165C228AACF200A85642 /* Build configuration list for PBXNativeTarget "HLXRoutesTests" */;
+			buildPhases = (
+				9B06164C228AACF200A85642 /* Sources */,
+				9B06164D228AACF200A85642 /* Frameworks */,
+				9B06164E228AACF200A85642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B061652228AACF200A85642 /* PBXTargetDependency */,
+			);
+			name = HLXRoutesTests;
+			productName = HLXRoutesTests;
+			productReference = 9B061650228AACF200A85642 /* HLXRoutesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B06162D228AACF000A85642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = lee;
+				TargetAttributes = {
+					9B061634228AACF000A85642 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					9B06164F228AACF200A85642 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9B061634228AACF000A85642;
+					};
+				};
+			};
+			buildConfigurationList = 9B061630228AACF000A85642 /* Build configuration list for PBXProject "HLXRoutes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B06162C228AACF000A85642;
+			productRefGroup = 9B061636228AACF000A85642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B061634228AACF000A85642 /* HLXRoutes */,
+				9B06164F228AACF200A85642 /* HLXRoutesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B061633228AACF000A85642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B061648228AACF200A85642 /* LaunchScreen.storyboard in Resources */,
+				9B061645228AACF200A85642 /* Assets.xcassets in Resources */,
+				9B061643228AACF000A85642 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B06164E228AACF200A85642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FFEDEEFD2C076A26A384E77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLXRoutes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B061631228AACF000A85642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1376342292A312006558EC /* UIImage+HLUI.m in Sources */,
+				9B061640228AACF000A85642 /* SecondViewController.m in Sources */,
+				9B061663228AAD2900A85642 /* HLXRoutes.m in Sources */,
+				9B06163A228AACF000A85642 /* AppDelegate.m in Sources */,
+				9B06164B228AACF200A85642 /* main.m in Sources */,
+				9B137637229384BF006558EC /* HomeFlowView.m in Sources */,
+				9B1376312292A128006558EC /* UIImageView+HLUI.m in Sources */,
+				9B13763A22938670006558EC /* HomeFlowThumbView.m in Sources */,
+				9B06163D228AACF000A85642 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B06164C228AACF200A85642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B061655228AACF200A85642 /* HLXRoutesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B061652228AACF200A85642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B061634228AACF000A85642 /* HLXRoutes */;
+			targetProxy = 9B061651228AACF200A85642 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B061641228AACF000A85642 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B061642228AACF000A85642 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B061646228AACF200A85642 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B061647228AACF200A85642 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B061657228AACF200A85642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B061658228AACF200A85642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B06165A228AACF200A85642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1163CAB5A646A0033318C57D /* Pods-HLXRoutes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLXRoutes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.x.HLXRoutes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B06165B228AACF200A85642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA59B346085845F1503CE82A /* Pods-HLXRoutes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLXRoutes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.x.HLXRoutes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B06165D228AACF200A85642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLXRoutesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.x.HLXRoutesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLXRoutes.app/HLXRoutes";
+			};
+			name = Debug;
+		};
+		9B06165E228AACF200A85642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLXRoutesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.x.HLXRoutesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLXRoutes.app/HLXRoutes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B061630228AACF000A85642 /* Build configuration list for PBXProject "HLXRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B061657228AACF200A85642 /* Debug */,
+				9B061658228AACF200A85642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B061659228AACF200A85642 /* Build configuration list for PBXNativeTarget "HLXRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B06165A228AACF200A85642 /* Debug */,
+				9B06165B228AACF200A85642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B06165C228AACF200A85642 /* Build configuration list for PBXNativeTarget "HLXRoutesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B06165D228AACF200A85642 /* Debug */,
+				9B06165E228AACF200A85642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B06162D228AACF000A85642 /* Project object */;
+}
